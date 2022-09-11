@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DDA9352228CE6B7E005F6945 /* Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA9352128CE6B7E005F6945 /* Activity.swift */; };
 		DDE2AC5A28C113F300075830 /* HabitlyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE2AC5928C113F300075830 /* HabitlyApp.swift */; };
 		DDE2AC5C28C113F300075830 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE2AC5B28C113F300075830 /* ContentView.swift */; };
 		DDE2AC5E28C113F600075830 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDE2AC5D28C113F600075830 /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DDA9352128CE6B7E005F6945 /* Activity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Activity.swift; sourceTree = "<group>"; };
 		DDE2AC5628C113F300075830 /* Habitly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Habitly.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDE2AC5928C113F300075830 /* HabitlyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitlyApp.swift; sourceTree = "<group>"; };
 		DDE2AC5B28C113F300075830 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,6 +55,7 @@
 			children = (
 				DDE2AC5928C113F300075830 /* HabitlyApp.swift */,
 				DDE2AC5B28C113F300075830 /* ContentView.swift */,
+				DDA9352128CE6B7E005F6945 /* Activity.swift */,
 				DDE2AC5D28C113F600075830 /* Assets.xcassets */,
 				DDE2AC5F28C113F600075830 /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDA9352228CE6B7E005F6945 /* Activity.swift in Sources */,
 				DDE2AC5C28C113F300075830 /* ContentView.swift in Sources */,
 				DDE2AC5A28C113F300075830 /* HabitlyApp.swift in Sources */,
 			);
