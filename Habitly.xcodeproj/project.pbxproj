@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DD771E1628CFBF0A0095E0F4 /* ActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD771E1528CFBF0A0095E0F4 /* ActivityView.swift */; };
+		DD771E1828CFC3A90095E0F4 /* ActivityFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD771E1728CFC3A90095E0F4 /* ActivityFormView.swift */; };
 		DDA9352228CE6B7E005F6945 /* Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA9352128CE6B7E005F6945 /* Activity.swift */; };
 		DDE2AC5A28C113F300075830 /* HabitlyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE2AC5928C113F300075830 /* HabitlyApp.swift */; };
 		DDE2AC5C28C113F300075830 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE2AC5B28C113F300075830 /* ContentView.swift */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DD771E1528CFBF0A0095E0F4 /* ActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityView.swift; sourceTree = "<group>"; };
+		DD771E1728CFC3A90095E0F4 /* ActivityFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityFormView.swift; sourceTree = "<group>"; };
 		DDA9352128CE6B7E005F6945 /* Activity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Activity.swift; sourceTree = "<group>"; };
 		DDE2AC5628C113F300075830 /* Habitly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Habitly.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDE2AC5928C113F300075830 /* HabitlyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitlyApp.swift; sourceTree = "<group>"; };
@@ -55,6 +59,8 @@
 			children = (
 				DDE2AC5928C113F300075830 /* HabitlyApp.swift */,
 				DDE2AC5B28C113F300075830 /* ContentView.swift */,
+				DD771E1528CFBF0A0095E0F4 /* ActivityView.swift */,
+				DD771E1728CFC3A90095E0F4 /* ActivityFormView.swift */,
 				DDA9352128CE6B7E005F6945 /* Activity.swift */,
 				DDE2AC5D28C113F600075830 /* Assets.xcassets */,
 				DDE2AC5F28C113F600075830 /* Preview Content */,
@@ -140,7 +146,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD771E1828CFC3A90095E0F4 /* ActivityFormView.swift in Sources */,
 				DDA9352228CE6B7E005F6945 /* Activity.swift in Sources */,
+				DD771E1628CFBF0A0095E0F4 /* ActivityView.swift in Sources */,
 				DDE2AC5C28C113F300075830 /* ContentView.swift in Sources */,
 				DDE2AC5A28C113F300075830 /* HabitlyApp.swift in Sources */,
 			);
